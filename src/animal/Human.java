@@ -1,6 +1,6 @@
 package animal;
 
-public class Human extends Animal {
+public class Human extends Animal implements Thinkable {
 
     private String hobby;
 
@@ -23,3 +23,5 @@ public class Human extends Animal {
         System.out.println(" 私は " + hobby + " について考えています。 ");
     }
 }
+
+
